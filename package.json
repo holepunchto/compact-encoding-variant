@@ -1,0 +1,29 @@
+{
+  "name": "compact-encoding-variant",
+  "version": "1.0.0",
+  "description": "Compact codec for variant types",
+  "exports": "./index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holepunchto/compact-encoding-variant.git"
+  },
+  "author": "Holepunch",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/holepunchto/compact-encoding-variant/issues"
+  },
+  "homepage": "https://github.com/holepunchto/compact-encoding-variant#readme",
+  "dependencies": {
+    "compact-encoding": "^2.13.0"
+  },
+  "devDependencies": {
+    "brittle": "^3.2.1",
+    "standard": "^17.0.0"
+  }
+}
